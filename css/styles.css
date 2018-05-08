@@ -1,0 +1,540 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+body {
+   background-color: #f4f4f4;
+   font-family: Lato,sans-serif;
+   margin: 0;
+   display: block;
+}
+
+
+.parallax {
+   position: relative;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+}
+
+#image1 {
+
+   background-image: url(../img/Parallax_image2.jpg);
+   height: 50pc;
+   width: 100%;
+   clear: both;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+   background-repeat: no-repeat;
+   position: relative;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+
+}
+
+#header {
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+
+#header body {
+   font-family: Lato,sans-serif;
+}
+
+#headertexts {
+   padding-top: 12.5pc;
+   flex-flow: row wrap;
+   width: 90%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: Lato,Helvetica,sans-serif;
+   height: auto;
+
+}
+
+#headertexts h1 {
+   line-height: 1em;
+   font-size: 6em;
+   font-family: Lato,Helvetica,sans-serif;
+   padding-top: 1.25pc;
+   padding-bottom: 1.25pc;
+   padding-right: 0;
+   padding-left: 0;
+   height: auto;
+   text-shadow: 0.75pt 1px 6px rgba(0,0,0,.5);
+   text-align: center;
+   font-weight: 300;
+   width: 100%;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   color: #fff;
+}
+
+#headertexts h2 {
+   font-size: 2em;
+   height: auto;
+   font-family: Lato,Helvetica,sans-serif;
+   margin-top: 0;
+   width: 100%;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   color: #fff;
+   text-shadow: 0.75pt 1px 6px rgba(0,0,0,.5);
+   text-align: center;
+   font-weight: 300;
+}
+
+h2 {
+   display: block;
+}
+
+.content {
+   margin-top: 1.25pc;
+   width: 100%;
+   top: -112.5pt;
+   overflow: hidden;
+   height: auto;
+   position: relative;
+
+   box-sizing: border-box;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.firststory {
+   color: #464646;
+   box-shadow: 0.0625pc 0.75pt 7.5pt 0 rgba(213,213,215,.5);
+   padding-top: 1.25pc;
+   padding-right: 11%;
+   padding-bottom: 1.25pc;
+   padding-left: 11%;
+   margin-top: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   background-color: #fff;
+   overflow: hidden;
+   position: relative;
+   height: auto;
+   width: 70%;
+   box-sizing: border-box;
+
+   display: block;
+   font-family: Lato,sans-serif;
+   color: #464646;
+}
+
+#byline {
+   margin-bottom: .875pc;
+   flex-flow: row wrap;
+   justify-content: left;
+   width: 100%;
+   align-items: center;
+   text-align: left;
+   overflow: hidden;
+   font-family: Lato,Helvetica,sans-serif;
+   height: auto;
+   display: flex;
+   position: relative;
+   box-sizing: border-box;
+}
+
+#byline img {
+   max-width: .9375in;
+   width: 15%;
+   height: auto;
+   float: left;
+   border-style: none;
+}
+
+#bylinetext {
+   padding-left: 11.25pt;
+   overflow: hidden;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   height: auto;
+   width: 45%;
+   margin-left: 0;
+   float: left;
+   box-sizing: border-box;
+   display: block;
+}
+
+#bylinetext h3 {
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 5px;
+   padding-left: 0;
+   color: #c50000;
+   font-weight: 700;
+   letter-spacing: .03125pc;
+   margin-top: 0;
+   font-size: 1.2em;
+   text-align: left;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   font-family: Lato,Helvetica,sans-serif;
+}
+
+h3 {
+   display: block;
+   -webkit-margin-before: 1.33em;
+   -webkit-margin-after: 1.33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+}
+
+#bylinetext p {
+   letter-spacing: .04375pc;
+   margin-left: 0;
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+   text-align: left;
+   color: #464646;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   line-height: 1.6em;
+   font-size: 1em;
+   font-weight: 300;
+   font-family: Lato,Helvetica,sans-serif;
+}
+
+.content p {
+   -webkit-margin-end: 0;
+   -webkit-margin-start: 0;
+   -webkit-margin-after: 1.5em;
+   -webkit-margin-before: 0;
+}
+
+p {
+   display: block;
+   color: #464646;
+   line-height: 1.65em;
+   font-weight: 300;
+   font-size: 1.2em;
+   font-family: Lato,sans-serif;
+}
+
+.media {
+   width: 100%;
+   top: -112.5pt;
+   overflow: hidden;
+   height: auto;
+   position: relative;
+   box-sizing: border-box;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.video1 {
+   background-color: #333;
+   width: 70%;
+   margin-top: 1.25pc;
+   margin-bottom: 1.25pc;
+   margin-right: auto;
+   margin-left: auto;
+   overflow: hidden;
+
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.video1 video {
+   float: right;
+   height: auto;
+   width: 70%;
+   display: inline-block;
+   object-fit: contain;
+   font-family: Lato,sans-serif;
+}
+
+.videotext {
+   min-height: 100%;
+   width: 30%;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   padding-right: 2%;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 2%;
+   color: #fff;
+   float: left;
+   background-color: #333;
+   box-sizing: border-box;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.videotext h3 {
+   font-size: 1.4em;
+   padding-left: 11.25pt;
+}
+
+h3 {
+   display: block;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-weight: bold;
+   font-family: Lato,sans-serif;  
+}
+
+.videotext p {
+   font-size: 1.1em;
+   line-height: 1.45em;
+   letter-spacing: .225pt;
+   font-weight: 100;
+   width: 90%;
+   color: #f4f4f4;
+   padding-left: 11.25pt;
+}
+
+p {
+   display: block;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-family: Lato,sans-serif;
+}
+
+.media {
+   width: 100%;
+   top: -112.5pt;
+   overflow: hidden;
+   height: auto;
+   position: relative;
+   box-sizing: border-box;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.photogallery {
+   background-color: #fff;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 15pt;
+   display: flex;
+   margin-right: auto;
+   margin-bottom: 15pt;
+   margin-left: auto;
+   width: 70%;
+   overflow: hidden;
+   flex-direction: row;
+   position: relative;
+   font-family: Lato,sans-serif;
+}
+
+.audiotextbox1 {
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   height: auto;
+   box-sizing: border-box;
+   float: left;
+   margin-top: .0625pc;
+   margin-right: .0625pc;
+   margin-bottom: .0625pc;
+   margin-left: .0625pc;
+   width: 33%;
+   font-family: Lato,sans-serif;
+}
+
+.audiotextbox1 h4 {
+   padding-top: 7.5pt;
+   font-size: 1.4em;
+   box-sizing: border-box;
+   width: 80%;
+   text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   height: auto;
+   margin-left: 0;
+   line-height: 1.4em;
+   font-weight: 300;
+}
+
+h4 {
+   display: block;
+   -webkit-margin-before: 1.33em;
+   -webkit-margin-after: 1.33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-family: Lato,sans-serif;
+}
+
+.audioimagebox {
+   box-sizing: border-box;
+   float: left;
+   margin-top: .0625pc;
+   margin-right: .0625pc;
+   margin-bottom: .0625pc;
+   margin-left: .0625pc;
+   width: 33%;
+   height: auto;
+   position: relative;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.audioimagebox img {
+   height: auto;
+   float: left;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+img {
+   border-style: none;
+   font-family: Lato,sans-serif;
+}
+
+.textlayer {
+   display: none;
+   box-sizing: border-box;
+   height: 50%;
+   margin-top: 70%;
+   padding-top: 22.5pt;
+   padding-right: 22.5pt;
+   padding-bottom: 22.5pt;
+   padding-left: 22.5pt;
+   background-color: rgba(0,0,0,.6);
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   position: absolute;
+   font-family: Lato,sans-serif;
+}
+
+.textlayer h4 {
+   letter-spacing: .03125pc;
+   text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   line-height: 1.4em;
+   font-weight: 400;
+   font-size: 1.1em;
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+   color: #fff;
+   width: 100%;
+}
+
+h4 {
+   display: block;
+   -webkit-margin-before: 1.33em;
+   -webkit-margin-after: 1.33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-family: Lato,sans-serif;
+}
+
+.textlayer p {
+   text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   font-size: 1em;
+   margin-left: 0;
+   line-height: 1.4em;
+   font-weight: 300;
+   width: 100%;
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+   color: #fff;
+}
+
+p {
+   display: block;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-family: Lato,sans-serif;
+}
+
+.parallax {
+   margin-top: 1.25pc;
+   margin-right: 0;
+   margin-bottom: 15px;
+   height: 600px;
+   background-image: url(../img/Parallax_image1.jpg);
+   margin-left: 0;
+   width: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+.parallax-caption {
+   font-size: 1.2em;
+   background-color: rgba(0,0,0,.5);
+   padding-top: .208333333in;
+   padding-right: .208333333in;
+   padding-bottom: .208333333in;
+   padding-left: .208333333in;
+   color: #f4f4f4;
+   bottom: 15px;
+   position: absolute;
+   text-align: center;
+   height: auto;
+   width: 100%;
+   display: block;
+   font-family: Lato,sans-serif;
+}
+
+
+
+
+
+
+
+
