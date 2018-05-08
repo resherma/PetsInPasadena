@@ -271,9 +271,8 @@ p {
    font-family: Lato,sans-serif;
 }
 
-.video1 video {
+.video1 iframe {
    float: right;
-   height: auto;
    width: 70%;
    display: inline-block;
    object-fit: contain;
